@@ -52,7 +52,7 @@ ul.posts li {
 }
 iframe {
   height: 100%;
-  width: 100%;
+  width: 3fr;
   resize: both;
   overflow: auto;
   border : none;

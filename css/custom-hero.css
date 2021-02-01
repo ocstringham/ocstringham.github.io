@@ -15,7 +15,7 @@
   }
 
 /* make hero longer on bigger screens */
-  /* @media screen and (min-width: 769px) {
+  @media screen and (min-width: 769px) {
     .hero{
         height: 500px;
     }
@@ -25,7 +25,7 @@
     #heroContainer{
       margin-top: 7%;
     }
-  } */
+  }
 
 
   

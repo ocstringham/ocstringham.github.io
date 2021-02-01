@@ -1,0 +1,46 @@
+<!doctype html>
+
+<html class="has-navbar-fixed-top">
+  <head>
+
+    <meta charset="utf-8">
+    <!-- <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" /> -->
+    <title>{{page.title}}</title>
+
+    <!-- Sets paths relative to top dir -->
+    <base href="../../../../../" target='_top'>
+    
+    <!-- load jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="{{site.baseurl}}/js/modal-image.js"></script>
+
+
+    <!-- link to main stylesheet -->
+    <!-- <link rel="stylesheet" href="node_modules/bulma/css/bulma.css"> -->
+    <link rel="stylesheet" href="{{site.baseurl}}/css/bulma.css">
+    <link rel="stylesheet" href="{{site.baseurl}}/css/custom-hero.css">
+    <link rel="stylesheet" href="{{site.baseurl}}/css/custom.css">
+    <link rel="stylesheet" href="{{site.baseurl}}/css/bulma-tooltip.css">
+
+    <!-- load other header stuff -->
+    <script> 
+      var include = "pages/head.html";
+      $.get(include, function(data){ //begin jquery get function
+        //append the data returned from your file  and append it to the head
+        $("head").append(data);
+      }); //end jquery get function
+    </script>
+
+  </head>
+  
+  <body>
+    <!-- NavBar -->
+    <div id="myNavbar"></div>
+
+    {{ content }}
+
+
+  </body>
+  	<!-- footer -->
+	<div id="myFooter"></div>
+</html>

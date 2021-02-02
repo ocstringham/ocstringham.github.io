@@ -2,48 +2,52 @@
 layout: default
 ---
 
-<div class="section ml-4">
+<div class="section">
 
-    <div class="container mt-2">
+    <nav class="columns is-centered">
+        <div class="column is-8-desktop is-11-tablet is-12-mobile ml-3 has-text-left-mobile">
 
-        <!-- post author, date -->
-        <div class="subtitle has-text-grey-light">
-            <!-- <span class="author">{{ page.author }} | </span> -->
-            <span class="date">{{ page.date | date: '%B %d, %Y' }}</span>
+            <div class="container mt-2">
+
+                <!-- post author, date -->
+                <div class="subtitle has-text-grey-light">
+                    <!-- <span class="author">{{ page.author }} | </span> -->
+                    <span class="date">{{ page.date | date: '%B %d, %Y' }}</span>
+                </div>
+
+                <!-- post title -->
+                <div class='title has-text-info'>{{ page.title }}</div>
+
+                <!-- post categories -->
+                <div class="is-text is-size-8 has-text-grey-light">
+                    <span class="categories">Categories: </span>
+                    {% for cat in page.categories %}
+                        {{ cat }}
+                    {% endfor %}
+                </div>
+            </div>	
+
+            <!-- post content -->
+            <div class="container mt-5">
+                <!-- <div class="content"> -->
+                    <div class="is-size-5-mobile is-size-4-tablet">
+                        {{ content }}
+                    <!-- </div> -->
+                </div>
+            </div>
+
+
+            <!-- post tags -->
+            <div class="container mt-5">
+                <div class="is-text has-text-grey-light">
+                    <span class="tags">Tags: 
+                        {% for tag in site.tags %}
+                            {{ tag[0] }}
+                        {% endfor %}
+                    </span>
+                </div>
+            </div>
+
         </div>
-
-        <!-- post title -->
-        <div class='title has-text-info'>{{ page.title }}</div>
-
-        <!-- post categories -->
-        <div class="is-text is-size-8 has-text-grey-light">
-            <span class="categories">Categories: </span>
-            {% for cat in page.categories %}
-                {{ cat }}
-            {% endfor %}
-        </div>
-    </div>	
-
-    <!-- post content -->
-    <div class="container mt-5">
-        <!-- <div class="content"> -->
-            <div class="is-size-5-mobile is-size-4-tablet">
-                {{ content }}
-            <!-- </div> -->
-        </div>
-    </div>
-
-
-    <!-- post tags -->
-    <div class="container mt-5">
-        <div class="is-text has-text-grey-light">
-            <span class="tags">Tags: 
-                {% for tag in site.tags %}
-                    {{ tag[0] }}
-                {% endfor %}
-            </span>
-        </div>
-    </div>
-
+    </nav>
 </div>
-

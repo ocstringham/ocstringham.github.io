@@ -5,35 +5,35 @@ title: Oliver C. Stringham - Research
 ---
 
 
-PUBLICATIONS
-Google Scholar Profile: Oliver C. Stringham
-
-ResearchGate Profile: Oliver C. Stringham
-
+<section class='section'>
+    <div class="container">
+        <div class="title is-8 has-text-left">PUBLICATIONS</div>
+		<div class="title is-3 has-text-left">Google Scholar Profile: <a href='https://scholar.google.com/citations?user=3ZhZiQgAAAAJ&hl=en'>Oliver C. Stringham</a></div>
+        <div class="title is-3 has-text-left">ResearchGate Profile: <a href='https://www.researchgate.net/profile/Oliver_Stringham'>Oliver C. Stringham</a></div>
+    </div>
+</section>
 
 <section class='section'>
-    <nav class="columns is-centered">
-        <p>Peer review publications</p>
-        <div class="column is-7-desktop is-12-tablet is-12-mobile ml-3 has-text-left-mobile">
+    <div class="container">
+        <div class="title is-4 has-text-left">Peer-Reviewed</div>
+        <nav class="columns is-centered">
+            <div class="column is-7-desktop is-12-tablet is-12-mobile ml-3 has-text-left-mobile">     
+    
+                {% assign publications = site.publications | sort: 'date' | reverse %}
+                {% for item in publications %}
+                    <div class="content is-text has-text-grey-dark is-size-6-mobile is-size-5-tablet">
+                        {{ item.content }}
+                    </div>
+                
+                {% endfor %}
 
-
-
-            
-
-            {% assign publications = site.publications | sort: 'date' | reverse %}
-            {% for item in publications %}
-            <div class="container">
-                <div class="content is-text is-size-6-mobile is-size-5-tablet">
-                    {{ item.content }}
-                </div>
             </div>
-
-        </div>
-    </nav>
+        </nav>
+    </div>
 </section>
 
 
-{% endfor %}
+
 
 
 Reports

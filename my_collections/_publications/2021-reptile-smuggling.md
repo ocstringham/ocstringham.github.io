@@ -1,0 +1,5 @@
+---
+date: 2021-03-01
+---
+
+**Stringham O.C.**, García-Díaz, P., Toomes, A., Ross, J.V., Mitchell, L., Cassey, P. (submitted) Reptile smuggling is predicted by trends in the legal exotic pet trade. [Preprint](https://doi.org/10.32942/osf.io/t42fd)

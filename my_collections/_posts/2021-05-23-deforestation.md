@@ -1,6 +1,6 @@
 ---
 layout: post
-title: `[`Data Visualization`]` Global Deforestation Rates
+title: `[Data Visualization]` Global Deforestation Rates
 author: Oliver C. Stringham
 date: 2021-05-23
 tags: tidy-tuesday ggplot R gis leaflet

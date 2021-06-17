@@ -1,6 +1,6 @@
 ---
 layout: post
-title: TidyTuesday - Washington Hiking
+title: "Washington Hiking [Data Visualization]"
 author: Oliver C. Stringham
 date: 2020-11-24
 tags: tidy-tuesday web-map R natural-language-processing

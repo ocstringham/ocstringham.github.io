@@ -1,6 +1,6 @@
 ---
 layout: post
-title: TidyTuesday - BBC Women of 2020
+title: "BBC Women of 2020 [Data Visualization]"
 author: Oliver C. Stringham
 date: 2020-12-09
 tags: tidy-tuesday web-map R

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: TidyTuesday - Tate Art
+title: "Tate Art [Data Visualization]"
 author: Oliver C. Stringham
 date: 2021-01-15
 tags: tidy-tuesday ggplot R

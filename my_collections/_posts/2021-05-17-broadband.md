@@ -1,6 +1,6 @@
 ---
 layout: post
-title: TidyTuesday - Broadband Access
+title: "Broadband Access [Data Visualization]"
 author: Oliver C. Stringham
 date: 2021-05-17
 tags: tidy-tuesday ggplot R gis

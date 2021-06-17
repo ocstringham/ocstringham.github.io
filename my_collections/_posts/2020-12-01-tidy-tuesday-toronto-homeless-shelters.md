@@ -1,6 +1,6 @@
 ---
 layout: post
-title: TidyTuesday - Toronto Homeless Shelters
+title: "Toronto Homeless Shelters [Data Visualization]"
 author: Oliver C. Stringham
 date: 2020-12-01
 tags: tidy-tuesday web-map R

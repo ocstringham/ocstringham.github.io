@@ -1,3 +1,12 @@
+/* for pubs color */
+span.pub-title{
+  color: #990099
+}
+
+span.pub-authors{
+  color:darkgray
+}
+
 /* font */
 body {
   font-family: Garamond, serif;
